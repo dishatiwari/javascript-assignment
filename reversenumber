@@ -1,0 +1,16 @@
+/*1. Write a JavaScript function that reverse a number
+Example x = 32243;
+Expected Output : 34223	;*/
+
+function reverse(n)
+{
+var rev=0;
+whhile(n>0)
+{
+r=n%10;
+rev=rev*10+r
+n=math.floor(n/10);
+console.log(rev);
+
+}
+}reverse(345);
